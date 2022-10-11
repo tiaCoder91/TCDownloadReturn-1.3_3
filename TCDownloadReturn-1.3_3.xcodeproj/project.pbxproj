@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1216233128F47E7B00550990 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1216233028F47E7B00550990 /* Assets.xcassets */; };
+		1216233428F47E7B00550990 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1216233228F47E7B00550990 /* MainMenu.xib */; };
+		1216233628F47E7B00550990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216233528F47E7B00550990 /* main.m */; };
+		1216234128F47E7C00550990 /* TCDownloadReturn_1_3_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216234028F47E7C00550990 /* TCDownloadReturn_1_3_3Tests.m */; };
+		1216234B28F47E7C00550990 /* TCDownloadReturn_1_3_3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216234A28F47E7C00550990 /* TCDownloadReturn_1_3_3UITests.m */; };
+		1216234D28F47E7C00550990 /* TCDownloadReturn_1_3_3UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216234C28F47E7C00550990 /* TCDownloadReturn_1_3_3UITestsLaunchTests.m */; };
+		1216235C28F47EE500550990 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216235B28F47EE500550990 /* TCViewController.m */; };
+		1216236028F47F5E00550990 /* TCWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216235F28F47F5E00550990 /* TCWindow.m */; };
+		1216236428F47F9800550990 /* TCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216236328F47F9800550990 /* TCView.m */; };
+		1216236828F47FE400550990 /* TCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216236728F47FE400550990 /* TCButton.m */; };
+		1216236C28F4858200550990 /* TCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216236B28F4858200550990 /* TCTextView.m */; };
+		1216237028F5662D00550990 /* TCScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1216236F28F5662D00550990 /* TCScrollView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1216233D28F47E7C00550990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1216232228F47E7600550990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1216232928F47E7600550990;
+			remoteInfo = "TCDownloadReturn-1.3_3";
+		};
+		1216234728F47E7C00550990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1216232228F47E7600550990 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1216232928F47E7600550990;
+			remoteInfo = "TCDownloadReturn-1.3_3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1216232A28F47E7600550990 /* TCDownloadReturn-1.3_3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCDownloadReturn-1.3_3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1216233028F47E7B00550990 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1216233328F47E7B00550990 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1216233528F47E7B00550990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1216233728F47E7B00550990 /* TCDownloadReturn_1_3_3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TCDownloadReturn_1_3_3.entitlements; sourceTree = "<group>"; };
+		1216233C28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCDownloadReturn-1.3_3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1216234028F47E7C00550990 /* TCDownloadReturn_1_3_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDownloadReturn_1_3_3Tests.m; sourceTree = "<group>"; };
+		1216234628F47E7C00550990 /* TCDownloadReturn-1.3_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCDownloadReturn-1.3_3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1216234A28F47E7C00550990 /* TCDownloadReturn_1_3_3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDownloadReturn_1_3_3UITests.m; sourceTree = "<group>"; };
+		1216234C28F47E7C00550990 /* TCDownloadReturn_1_3_3UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCDownloadReturn_1_3_3UITestsLaunchTests.m; sourceTree = "<group>"; };
+		1216235A28F47EE500550990 /* TCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		1216235B28F47EE500550990 /* TCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		1216235E28F47F5E00550990 /* TCWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCWindow.h; sourceTree = "<group>"; };
+		1216235F28F47F5E00550990 /* TCWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCWindow.m; sourceTree = "<group>"; };
+		1216236228F47F9800550990 /* TCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCView.h; sourceTree = "<group>"; };
+		1216236328F47F9800550990 /* TCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCView.m; sourceTree = "<group>"; };
+		1216236628F47FE400550990 /* TCButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCButton.h; sourceTree = "<group>"; };
+		1216236728F47FE400550990 /* TCButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCButton.m; sourceTree = "<group>"; };
+		1216236A28F4858200550990 /* TCTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCTextView.h; sourceTree = "<group>"; };
+		1216236B28F4858200550990 /* TCTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCTextView.m; sourceTree = "<group>"; };
+		1216236E28F5662D00550990 /* TCScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCScrollView.h; sourceTree = "<group>"; };
+		1216236F28F5662D00550990 /* TCScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCScrollView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1216232728F47E7600550990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216233928F47E7C00550990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216234328F47E7C00550990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1216232128F47E7600550990 = {
+			isa = PBXGroup;
+			children = (
+				1216232C28F47E7600550990 /* TCDownloadReturn-1.3_3 */,
+				1216233F28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests */,
+				1216234928F47E7C00550990 /* TCDownloadReturn-1.3_3UITests */,
+				1216232B28F47E7600550990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1216232B28F47E7600550990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1216232A28F47E7600550990 /* TCDownloadReturn-1.3_3.app */,
+				1216233C28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests.xctest */,
+				1216234628F47E7C00550990 /* TCDownloadReturn-1.3_3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1216232C28F47E7600550990 /* TCDownloadReturn-1.3_3 */ = {
+			isa = PBXGroup;
+			children = (
+				1216233528F47E7B00550990 /* main.m */,
+				1216235928F47EC100550990 /* TCViewController */,
+				1216233028F47E7B00550990 /* Assets.xcassets */,
+				1216233228F47E7B00550990 /* MainMenu.xib */,
+				1216233728F47E7B00550990 /* TCDownloadReturn_1_3_3.entitlements */,
+			);
+			path = "TCDownloadReturn-1.3_3";
+			sourceTree = "<group>";
+		};
+		1216233F28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1216234028F47E7C00550990 /* TCDownloadReturn_1_3_3Tests.m */,
+			);
+			path = "TCDownloadReturn-1.3_3Tests";
+			sourceTree = "<group>";
+		};
+		1216234928F47E7C00550990 /* TCDownloadReturn-1.3_3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1216234A28F47E7C00550990 /* TCDownloadReturn_1_3_3UITests.m */,
+				1216234C28F47E7C00550990 /* TCDownloadReturn_1_3_3UITestsLaunchTests.m */,
+			);
+			path = "TCDownloadReturn-1.3_3UITests";
+			sourceTree = "<group>";
+		};
+		1216235928F47EC100550990 /* TCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1216235A28F47EE500550990 /* TCViewController.h */,
+				1216235B28F47EE500550990 /* TCViewController.m */,
+				1216235D28F47EFB00550990 /* TCWindow */,
+				1216236128F47F6E00550990 /* TCView */,
+				1216236D28F5660600550990 /* TCScrollView */,
+				1216236928F4853500550990 /* TCTextView */,
+				1216236528F47FA900550990 /* TCButton */,
+			);
+			path = TCViewController;
+			sourceTree = "<group>";
+		};
+		1216235D28F47EFB00550990 /* TCWindow */ = {
+			isa = PBXGroup;
+			children = (
+				1216235E28F47F5E00550990 /* TCWindow.h */,
+				1216235F28F47F5E00550990 /* TCWindow.m */,
+			);
+			path = TCWindow;
+			sourceTree = "<group>";
+		};
+		1216236128F47F6E00550990 /* TCView */ = {
+			isa = PBXGroup;
+			children = (
+				1216236228F47F9800550990 /* TCView.h */,
+				1216236328F47F9800550990 /* TCView.m */,
+			);
+			path = TCView;
+			sourceTree = "<group>";
+		};
+		1216236528F47FA900550990 /* TCButton */ = {
+			isa = PBXGroup;
+			children = (
+				1216236628F47FE400550990 /* TCButton.h */,
+				1216236728F47FE400550990 /* TCButton.m */,
+			);
+			path = TCButton;
+			sourceTree = "<group>";
+		};
+		1216236928F4853500550990 /* TCTextView */ = {
+			isa = PBXGroup;
+			children = (
+				1216236A28F4858200550990 /* TCTextView.h */,
+				1216236B28F4858200550990 /* TCTextView.m */,
+			);
+			path = TCTextView;
+			sourceTree = "<group>";
+		};
+		1216236D28F5660600550990 /* TCScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				1216236E28F5662D00550990 /* TCScrollView.h */,
+				1216236F28F5662D00550990 /* TCScrollView.m */,
+			);
+			path = TCScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1216232928F47E7600550990 /* TCDownloadReturn-1.3_3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1216235028F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3" */;
+			buildPhases = (
+				1216232628F47E7600550990 /* Sources */,
+				1216232728F47E7600550990 /* Frameworks */,
+				1216232828F47E7600550990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCDownloadReturn-1.3_3";
+			productName = "TCDownloadReturn-1.3_3";
+			productReference = 1216232A28F47E7600550990 /* TCDownloadReturn-1.3_3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1216233B28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1216235328F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3Tests" */;
+			buildPhases = (
+				1216233828F47E7C00550990 /* Sources */,
+				1216233928F47E7C00550990 /* Frameworks */,
+				1216233A28F47E7C00550990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1216233E28F47E7C00550990 /* PBXTargetDependency */,
+			);
+			name = "TCDownloadReturn-1.3_3Tests";
+			productName = "TCDownloadReturn-1.3_3Tests";
+			productReference = 1216233C28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1216234528F47E7C00550990 /* TCDownloadReturn-1.3_3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1216235628F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3UITests" */;
+			buildPhases = (
+				1216234228F47E7C00550990 /* Sources */,
+				1216234328F47E7C00550990 /* Frameworks */,
+				1216234428F47E7C00550990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1216234828F47E7C00550990 /* PBXTargetDependency */,
+			);
+			name = "TCDownloadReturn-1.3_3UITests";
+			productName = "TCDownloadReturn-1.3_3UITests";
+			productReference = 1216234628F47E7C00550990 /* TCDownloadReturn-1.3_3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1216232228F47E7600550990 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1216232928F47E7600550990 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1216233B28F47E7C00550990 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1216232928F47E7600550990;
+					};
+					1216234528F47E7C00550990 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1216232928F47E7600550990;
+					};
+				};
+			};
+			buildConfigurationList = 1216232528F47E7600550990 /* Build configuration list for PBXProject "TCDownloadReturn-1.3_3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1216232128F47E7600550990;
+			productRefGroup = 1216232B28F47E7600550990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1216232928F47E7600550990 /* TCDownloadReturn-1.3_3 */,
+				1216233B28F47E7C00550990 /* TCDownloadReturn-1.3_3Tests */,
+				1216234528F47E7C00550990 /* TCDownloadReturn-1.3_3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1216232828F47E7600550990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216233128F47E7B00550990 /* Assets.xcassets in Resources */,
+				1216233428F47E7B00550990 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216233A28F47E7C00550990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216234428F47E7C00550990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1216232628F47E7600550990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216236C28F4858200550990 /* TCTextView.m in Sources */,
+				1216233628F47E7B00550990 /* main.m in Sources */,
+				1216236828F47FE400550990 /* TCButton.m in Sources */,
+				1216236428F47F9800550990 /* TCView.m in Sources */,
+				1216237028F5662D00550990 /* TCScrollView.m in Sources */,
+				1216236028F47F5E00550990 /* TCWindow.m in Sources */,
+				1216235C28F47EE500550990 /* TCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216233828F47E7C00550990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216234128F47E7C00550990 /* TCDownloadReturn_1_3_3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1216234228F47E7C00550990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1216234B28F47E7C00550990 /* TCDownloadReturn_1_3_3UITests.m in Sources */,
+				1216234D28F47E7C00550990 /* TCDownloadReturn_1_3_3UITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1216233E28F47E7C00550990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1216232928F47E7600550990 /* TCDownloadReturn-1.3_3 */;
+			targetProxy = 1216233D28F47E7C00550990 /* PBXContainerItemProxy */;
+		};
+		1216234828F47E7C00550990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1216232928F47E7600550990 /* TCDownloadReturn-1.3_3 */;
+			targetProxy = 1216234728F47E7C00550990 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1216233228F47E7B00550990 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1216233328F47E7B00550990 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1216234E28F47E7C00550990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1216234F28F47E7C00550990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1216235128F47E7C00550990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = "TCDownloadReturn-1.3_3/TCDownloadReturn_1_3_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		1216235228F47E7C00550990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = "TCDownloadReturn-1.3_3/TCDownloadReturn_1_3_3.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		1216235428F47E7C00550990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCDownloadReturn-1.3_3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCDownloadReturn-1.3_3";
+			};
+			name = Debug;
+		};
+		1216235528F47E7C00550990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCDownloadReturn-1.3_3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCDownloadReturn-1.3_3";
+			};
+			name = Release;
+		};
+		1216235728F47E7C00550990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "TCDownloadReturn-1.3_3";
+			};
+			name = Debug;
+		};
+		1216235828F47E7C00550990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LMRAB76UKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.TC91.TCDownloadReturn-1-3-3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "TCDownloadReturn-1.3_3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1216232528F47E7600550990 /* Build configuration list for PBXProject "TCDownloadReturn-1.3_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216234E28F47E7C00550990 /* Debug */,
+				1216234F28F47E7C00550990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1216235028F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216235128F47E7C00550990 /* Debug */,
+				1216235228F47E7C00550990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1216235328F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216235428F47E7C00550990 /* Debug */,
+				1216235528F47E7C00550990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1216235628F47E7C00550990 /* Build configuration list for PBXNativeTarget "TCDownloadReturn-1.3_3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1216235728F47E7C00550990 /* Debug */,
+				1216235828F47E7C00550990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1216232228F47E7600550990 /* Project object */;
+}
